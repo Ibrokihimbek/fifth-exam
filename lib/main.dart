@@ -1,5 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:fifth_exam/data/models/repositories/students_repository.dart';
 import 'package:fifth_exam/screens/app_router.dart';
+import 'package:fifth_exam/view_model/students_view_model.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -13,7 +15,11 @@ void main() async {
   runApp(
     MultiProvider(
       providers: [
-        
+        ChangeNotifierProvider(
+          create: (context) => StudentsViewModel(
+            studentRepository: StudentRepository(firebaseFirestore: fireStore),
+          ),
+        ),
       ],
       child: const MyApp(),
     ),
