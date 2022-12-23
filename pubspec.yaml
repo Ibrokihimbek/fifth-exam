@@ -1,0 +1,63 @@
+name: fifth_exam
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.2
+  lottie: ^1.4.3
+  intl: ^0.17.0
+  carousel_slider: ^4.1.1
+  flutter_screenutil: ^5.5.4
+  google_fonts: ^3.0.1
+  flutter_svg: ^1.1.5
+  dio: ^4.0.6
+  shimmer: ^2.0.0
+  cached_network_image: ^3.2.1
+  file_picker: ^5.0.1
+  image_picker: ^0.8.5+3
+  email_validator: '^2.1.16'
+  animated_snack_bar: ^0.3.0
+  floating_bottom_navigation_bar: ^1.5.2
+  fluttertoast: ^8.1.1
+  provider: ^6.0.4
+
+
+  #Firebase
+  firebase_core: ^2.3.0
+  firebase_auth: ^4.1.5
+  firebase_storage: ^11.0.6
+  cloud_firestore: ^4.1.0
+  firebase_analytics: ^10.0.6
+  firebase_in_app_messaging: ^0.7.0+7
+  firebase_messaging: ^14.1.4
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+ 
+  # assets:
+    
+
+ 
