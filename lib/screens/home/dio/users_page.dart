@@ -1,4 +1,4 @@
-import 'package:fifth_exam/data/models/repositories/users_repository.dart';
+import 'package:fifth_exam/data/app_repository/users_repository.dart';
 import 'package:fifth_exam/data/models/users/users_model.dart';
 import 'package:fifth_exam/data/services/api/api_service.dart';
 import 'package:fifth_exam/view_model/users_view_model.dart';

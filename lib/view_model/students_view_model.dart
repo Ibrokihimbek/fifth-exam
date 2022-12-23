@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:fifth_exam/data/models/repositories/students_repository.dart';
+import 'package:fifth_exam/data/app_repository/students_repository.dart';
 import 'package:fifth_exam/data/models/student/students_model.dart';
 import 'package:flutter/material.dart';
 
